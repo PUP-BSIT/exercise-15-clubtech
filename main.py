@@ -7,7 +7,7 @@ while True:
     print("MAIN MENU (CLUBTECH)")
     print("============")
     print("1. John Matthew Arroyo")
-    print("2. Franco Alfoson Lazaro")
+    print("2. Franco Alfonso Lazaro")
     print("3. John Carlo Nolluda")
     print("4. Exit")
     print("==========================")
@@ -18,6 +18,8 @@ while True:
             os.system('cls')
             arroyo.arroyo_object()
         case 2:
+            pass
+        case 3:
             os.system('cls')
             nolluda.nolluda_object()
         case 4:
