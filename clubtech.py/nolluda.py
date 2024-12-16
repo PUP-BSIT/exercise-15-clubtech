@@ -68,4 +68,3 @@ def nolluda_object():
     dog_1.menu()
     os.system('cls')
 
-nolluda_object()
