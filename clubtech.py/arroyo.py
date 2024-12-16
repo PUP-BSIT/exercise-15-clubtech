@@ -86,4 +86,3 @@ def arroyo_object():
     car_1.menu()
     os.system('cls')
 
-arroyo_object()
