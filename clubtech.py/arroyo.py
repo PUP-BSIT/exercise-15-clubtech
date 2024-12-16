@@ -2,11 +2,15 @@ import os
 import time
 import winsound
 
+SOUND_FREQUENCY = 300
+MIN_SOUND = 150
+MAX_SOUND = 300
+
 def choice_sound():
-    winsound.Beep(300, 150)
+    winsound.Beep(SOUND_FREQUENCY, MIN_SOUND)
 
 def choice_exit_sound():
-    winsound.Beep(300, 300)
+    winsound.Beep(SOUND_FREQUENCY, MAX_SOUND)
 
 class Car:
     
@@ -70,6 +74,7 @@ class Car:
                     time.sleep(2)
                     break
                 case _:
+                    choice_exit_sound()
                     print("Incorrect choice")
 
 def arroyo_object():
@@ -81,4 +86,4 @@ def arroyo_object():
     car_1.menu()
     os.system('cls')
 
-
+arroyo_object()
