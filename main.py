@@ -1,4 +1,4 @@
-from clubtech import arroyo, nolluda
+from clubtech import arroyo, nolluda, lazaro
 import time
 import os
 
@@ -18,6 +18,8 @@ while True:
             os.system('cls')
             arroyo.arroyo_object()
         case 2:
+            os.system('cls')
+            lazaro.lazaro_object()
             pass
         case 3:
             os.system('cls')
