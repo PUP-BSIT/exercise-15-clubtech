@@ -47,23 +47,23 @@ class Dog:
                 print("Incorrect choice")
 
     def bark(self):
-        print(f"The {self.breed}, dog named {self.name}"
+        print(f"The {self.breed} dog named {self.name},"
         f" {self.age} years old, is barking ")
     
     def fetch(self):
-        print(f"The {self.breed}, dog named {self.name}"
+        print(f"The {self.breed} dog named {self.name},"
         f" {self.age} years old, is fetching")
     
     def sit(self):
-        print(f"The {self.breed}, dog named {self.name}"
+        print(f"The {self.breed} dog named {self.name},"
         f" {self.age} years old, is sitting")
     
     def run(self):
-        print(f"The {self.breed}, dog named {self.name}"
+        print(f"The {self.breed} dog named {self.name},"
         f" {self.age} years old, is running")
     
     def eat(self):
-        print(f"The {self.breed}, dog named {self.name}"
+        print(f"The {self.breed} dog named {self.name},"
         f" {self.age} years old, is eating")
    
 def nolluda_object():
@@ -75,3 +75,4 @@ def nolluda_object():
     dog_1.show_all_menu()
     os.system('cls')
 
+nolluda_object()
