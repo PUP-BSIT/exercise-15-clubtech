@@ -75,4 +75,3 @@ def nolluda_object():
     dog_1.show_all_menu()
     os.system('cls')
 
-nolluda_object()
